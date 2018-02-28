@@ -1,0 +1,344 @@
+{
+    /*border: 1px red dotted;*/
+    box-sizing: border-box;
+}
+
+
+
+#logophoto {
+    width: 225px;
+    height: 225px;
+    border-radius: 120px;;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    border: 1px grey solid;
+}
+
+#top {
+    box-sizing:border-box;
+    display:flex;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    padding: 20px;
+}
+
+#fullname h1 {
+    font-size: 45px;
+    margin: 0px;
+    color:white;
+}
+
+#fullname h2 {
+    font-size: 55px;
+    margin: 0px;
+    color:orangered;
+}
+#fullname h3 {
+    font-size: 20px;
+    margin: 0px;
+    color:white;
+    font-weight:normal;
+}
+
+#fullname {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    padding-right: 60px;
+    border-right: 1px white solid;
+}
+
+#contact {
+    display:flex;
+    flex-direction: row;
+    flex-grow: 5;
+    color: #b2afaf;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: none;
+    width: 100%;
+    border-bottom: 1px white solid
+}
+
+#contact div p{
+    margin: 0px;
+    padding: 5px;
+}
+
+
+#contact-coutinue {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    font-size: 15px;
+    color: #b2afaf;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    width: 100%;
+    border-bottom: 1px white solid;
+}
+
+#logoname {
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;   
+}
+
+li {
+    position: relative;
+}
+
+#about-me article{
+    width: 390px;
+}
+
+
+#about-me {
+    overflow: hidden;
+    color: #b2afaf;
+    width: 100%;
+    padding: 5px;
+}
+#about-me font{
+    font-size: 30px;
+}
+
+
+#fullprofile {
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+}
+
+#profile-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    list-style: none;
+    color: white;
+}
+
+#profile-links a{
+    text-decoration: none;
+    color:white;
+}
+#profile-links a:hover{
+    color:yellow;
+}
+
+
+
+#Experience {
+    width: 70%;
+    padding: 20px;
+}
+
+
+#secondMain {
+    display: flex;
+    flex-direction: row;
+}
+
+#contartAndAboutMe {
+    width: 100%;
+}
+
+#myProgress {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+}
+
+#proSkills {
+    width: 100%;
+    height: 50%;
+    background-color: deepskyblue;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.JobLeft p{
+    font-size: 20px;
+    color: #009dff;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.JobLeft font{
+    color: gainsboro;
+}
+
+.JobLeft {
+    text-align:right;
+    width: 240px;
+    margin-right: 50px;
+}
+
+.JoRight {
+    text-align:right;
+}
+
+.JobRight {
+    width: 100%;
+}
+
+.JobRight p{
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.JobRight font{
+    font-size: 14px;
+    color: lightgrey;
+}
+
+.Job {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+}
+
+.meter { 
+	height: 10px;  /* Can be anything */
+	position: relative;
+	border: 1px black solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 8px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(87, 87, 87);
+  background-image: linear-gradient(
+    center bottom,
+    rgb(54, 56, 55) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+.progressbar {
+    width: 50%;
+}
+
+.myProgressBarContainRIGHT {
+    width: 60%;
+}
+
+.myProgressBarContainLEFT {
+    width: 40%;
+}
+
+.myProgressBarContain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pro+per {
+    flex-direction: column;
+    width: 100%;
+}
+
+#sideBar {
+    flex-direction: column;
+    width: 30%;
+    flex-wrap: wrap;
+    
+}
+
+#perSkills {
+    width: 100%;
+    height: 50%;
+    background-color: goldenrod;
+}
+
+#Education {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: dimgrey;
+}
+
+#hobies {
+    width: 70%;
+    padding: 20px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+#languge {
+    width: 30%;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+#hobbiesIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#hobbiesIcons a{
+    text-decoration: none;
+    color:black;
+}
+#hobbiesIcons a:hover{
+    color:yellow;
+}
+
+#aHobbie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#aHobbie li div{
+    width: 100%;
+}
+
+#Shadow {
+    box-shadow: 0px 0px 20px 0px grey;
+    margin: 0 auto;
+    width: 80%;
+}
